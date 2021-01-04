@@ -1,17 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import Main from 'components/Main';
 
-const Teste = styled.h1`
-  font-size: 6.7rem;
-  color: red;
-`;
-
-const Home: React.FC = () => {
-  return (
-    <div>
-      <Teste>Hi</Teste>
-    </div>
-  );
-};
-
-export default Home;
+export default function Home() {
+  return <Main />;
+}
