@@ -1,11 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
 
-// import { Container } from './styles';
+const Teste = styled.h1`
+  font-size: 6.7rem;
+  color: red;
+`;
 
 const Home: React.FC = () => {
   return (
     <div>
-      <h1>Hi</h1>
+      <Teste>Hi</Teste>
     </div>
   );
 };
